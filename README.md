@@ -2,7 +2,7 @@
 
 **贡献者：** NI YUNHAO
 **捐赠链接：** [https://21te495.edu2web.com/](https://21te495.edu2web.com/)  
-**标签：** Google Classroom，学生成绩，作业管理，教育  
+**标签：** Google Classroom，学生成绩，教育  
 **最低要求：** WordPress 5.0  
 **测试通过版本：** WordPress 6.3  
 **最低 PHP 版本要求：** 7.4  
