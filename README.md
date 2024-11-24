@@ -57,13 +57,61 @@ Classroom to WordPress 插件将 Google Classroom 与 WordPress 无缝连接，�
 4. 点击 **“授权 Google Classroom”** 按钮授予必要权限。
 5. 授权完成后，即可通过插件界面访问课程数据、作业和成绩。
 
-## 常见问题
+## 1. 我如何获取 `json` 文件？
 
-### 1. 我如何获取 `json` 文件？
-在 [Google API 控制台](https://console.cloud.google.com/) 设置 OAuth 2.0 客户端后，您可以下载 `json` 文件。
+### 登录 Google Cloud Console
 
-### 2. 如果访问令牌过期怎么办？
-插件会自动刷新过期的令牌。如果刷新失败，您需要重新授权。
+打开 Google Cloud Console。
+使用您的 Google 账号登录。
+
+### 创建新项目（或选择现有项目）
+
+在顶部导航栏点击 “项目选择”（プロジェクトの選択）。
+如果已有项目：
+从项目列表中选择您希望使用的项目。
+如果没有项目或需要新建项目：
+点击 “新しいプロジェクト”（新建项目）。
+输入项目名称（如 Classroom to WordPress）。
+选择适当的组织和位置后，点击 “作成”（创建）。
+
+### 启用 Google Classroom API
+
+在项目创建或选择后，点击左侧菜单中的 “API とサービス” > “ライブラリ”（API 和服务 > 库）。
+在搜索框中输入 “Google Classroom API”，点击搜索。
+选择 “Google Classroom API”，然后点击 “有効にする”（启用）。
+等待 API 启用完成，页面会自动跳转到 API 的详细信息页面。
+
+### 创建 OAuth 同意屏幕
+
+在左侧菜单中，点击 “API とサービス” > “認証情報”（API 和服务 > 凭据）。
+点击页面顶部的 “同意画面を構成”（配置同意屏幕）。
+根据您的需求选择 “外部”（外部用户）或 “内部”（仅组织内部用户）。一般情况下选择 外部。
+点击 “作成” 进入下一步：
+アプリ名（应用名称）：输入您的应用名称，例如 Classroom to WordPress。
+サポートメールアドレス（支持电子邮件）：填写您的邮箱地址。
+アプリのドメイン（应用域名）：可选，若您的应用有域名可填写。
+開発者の連絡先情報（开发者联系方式）：输入邮箱地址，完成后点击 “保存して次へ”（保存并继续）。
+スコープの追加（添加作用域）：点击 スコープを追加，确保添加以下作用域：
+https://www.googleapis.com/auth/classroom.courses
+https://www.googleapis.com/auth/classroom.rosters
+https://www.googleapis.com/auth/classroom.coursework.students
+点击 “保存して次へ”，完成同意屏幕设置。
+
+### 创建 OAuth 2.0 凭据
+
+返回 “認証情報”（凭据）页面。
+点击 “認証情報を作成”（创建凭据） > “OAuth クライアント ID”。
+在 アプリケーションの種類（应用类型） 中，选择 ウェブアプリケーション（Web 应用）。
+输入应用名称（如 Classroom to WordPress）。
+在 承認済みのリダイレクト URI（已授权重定向 URI） 中添加以下 URI：
+示例：https://www.example.com/wp-admin/admin-post.php?action=google_classroom_auth
+点击 “作成”（创建）。
+
+### 下载 JSON 文件
+
+创建完成后，系统会生成 客户端 ID 和 客户端密钥。
+点击 “ダウンロード” 按钮，将 JSON 文件下载到本地（通常命名为 client_secret_XXXX.json）。
+将此文件保存好，以便在 WordPress 插件中上传或配置。
 
 ## 插件截图
 
