@@ -1,42 +1,81 @@
-# Classroom-Wordpress-Plugin #
+=== Classroom to WordPress ===
+Contributors: Your Name
+Donate link: https://example.com/
+Tags: google classroom, student grades, assignment management, education
+Requires at least: 5.0
+Tested up to: 6.3
+Requires PHP: 7.4
+Stable tag: 1.3
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-**Contributors:** NI YUNHAO
-**Plugin URI:** https://github.com/fedipod/upod-plugi
-**Author URI:** http://api.edu2web.com/tinywebdb-api/ 
-**Document URI:** http://api.edu2web.com/tinywebdb-api/    
-**Donate link:** https://21te495.daiichi-koudai.com
-**Tags:** Classroom, Link, Data，Api
-**Requires at least:** 4.0  
-**Requires PHP:** 5.2.4  
-**Tested up to:** 6.2.2  
-**License:** GPLv2 or later  
-**License URI:** http://www.gnu.org/licenses/gpl-2.0.html 
-**Short Description**
-Support all ActivityPub protocol concerns passed over carefully for copying and converting to WordPress articles, and changing the author to the specified WordPress user.
+Classroom to WordPress is a plugin that connects Google Classroom with WordPress, allowing you to fetch student data, assignments, grades, and more.
 
+== Description ==
+The **Classroom to WordPress** plugin integrates Google Classroom with WordPress to enhance educational workflows. Teachers and administrators can:
 
-# Description #
-upod plugin is a powerful WordPress plugin that allows you to copy cached bot posts from supported sites and store them as new regular posts in your WordPress site, privately, by using the ActivityPub protocol. Whether you use Mastodon or another social media platform that supports ActivityPub, ActivityPub post Converter provides you with an easy and effective way to import the content you need for yourself into your WordPress environment. With ActivityPub post Converter, you can specify new authors for posts, categorize the bot messages you receive, and easily manage imported posts
+- Fetch and list courses from Google Classroom.
+- View detailed lists of enrolled students in a course.
+- Fetch assignments and grades for individual students or an entire class.
+- Automatically create WordPress posts containing course data, assignments, or grades.
 
-upod plugin provides an intuitive settings page that allows you to easily configure author ID replacement rules to ensure that the copied posts correspond to the users you want to correspond to on your site. Whether you are a personal blogger, content creator or social media manager, ActivityPub post Converter will save you time and effort and make your WordPress site
+This plugin is ideal for educators and institutions seeking to manage and display Google Classroom data on WordPress sites.
 
+== Features ==
+- **Google Classroom API Integration**: Authenticate and fetch Classroom data easily.
+- **Course Management**: List and view details for all courses.
+- **Student Management**: Display student rosters with associated emails and profiles.
+- **Assignment & Grade Retrieval**: Fetch assignment submissions and grades.
+- **Post Auto-Creation**: Publish student data directly to WordPress as posts.
+- **Role Detection**: Adapts features based on user role (teacher or student).
 
-# Installation #
+== Installation ==
+1. Download and upload the plugin folder to `/wp-content/plugins/`.
+2. Activate the plugin in the WordPress Admin Dashboard under Plugins.
+3. Configure the plugin via the "Classroom Grades to WP" menu in the WordPress Admin Dashboard.
 
-1. FTP the entire UPOD Plugin directory to your Wordpress blog's plugins folder (/wp-content/plugins/).
-2. Activate the plugin on the "Plugins" tab of the administration panel.
-3. Install the Reveal ID plugin, the ID will be displayed in the user interface
-4. Enter the settings page to allow users to enter author ID replacement rules in the format 'old_id:new_id' to customize which Fediverse user IDs should be replaced with which WordPress user IDs
+== Setup ==
+1. Obtain your `token.json` file from Google API Console after setting up an OAuth 2.0 client.
+2. Upload the `token.json` file in the plugin settings page or paste the content directly into the input field.
+3. Click "Authorize Google Classroom" to grant necessary permissions.
+4. Once authorized, access course data, assignments, and grades from the plugin interface.
 
-# Frequently Asked Questions #
+== Frequently Asked Questions ==
 
-# Screenshots #
+= Where can I get the `token.json` file? =
+You can generate the `token.json` file from the [Google API Console](https://console.cloud.google.com/).
 
-# Changelog #
+= What if the access token expires? =
+The plugin will refresh expired tokens automatically. If the refresh fails, you will need to reauthorize the plugin.
 
-### 0.1.0 ###  
-Start Classroom-Wordpress-Plugin.
+= Can students use this plugin? =
+This plugin is designed for teachers and administrators. Students can view specific details only if access is granted.
 
-# Upgrade Notice #
+== Screenshots ==
+1. **Plugin Dashboard**: Overview of settings and options.
+2. **Course List**: List of courses fetched from Google Classroom.
+3. **Student Grades Table**: A detailed table of assignments and grades.
+4. **WordPress Post Output**: Example of a WordPress post created by the plugin.
 
-# Arbitrary section #
+== Changelog ==
+
+= 1.3 =
+* Added support for fetching and displaying attachments for assignments.
+* Improved error handling for Google API responses.
+* Enhanced user role detection and permissions.
+
+= 1.2 =
+* Introduced automatic WordPress post creation for grades and student data.
+* Updated token management interface for easier configuration.
+
+= 1.1 =
+* Initial release with basic Google Classroom integration.
+
+== Upgrade Notice ==
+Please ensure `token.json` is configured correctly before upgrading to avoid functionality interruptions.
+
+== License ==
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+== Support ==
+For support and inquiries, please contact Your Name at `your-email@example.com`.
