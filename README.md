@@ -56,11 +56,11 @@ Classroom to WordPress 插件将 Google Classroom 与 WordPress 无缝连接，�
 
 4.在左侧菜单中点击 插件 > 安装插件。
 
-5.在页面左上角点击 上传插件 按钮。 
+5.在页面左上角点击 “上传插件” 按钮。 
 
-6.点击 选择文件，选择刚刚从 GitHub 下载的 ZIP 文件，然后点击 现在安装。  
+6.点击 “选择文件”，选择刚刚从 GitHub 下载的 ZIP 文件，然后点击 “现在安装”。    
 
-7.安装完成后，点击 启用插件 按钮。
+7.安装完成后，点击 “启用插件” 按钮。
 
 8.插件安装成功后，您可以在左侧菜单找到 “Classroom Grades to WP”，并开始配置和使用插件。  
 
@@ -70,7 +70,7 @@ Classroom to WordPress 插件将 Google Classroom 与 WordPress 无缝连接，�
 
 2. 打开Json文件并复制文件内容。
 
-3. 在插件设置页面将复制内容粘贴到输入框中，然后点击 保存token.json。
+3. 在插件设置页面将复制内容粘贴到输入框中，然后点击 “保存token.json”。
 
 5. 点击 **“授权 Google Classroom”** 按钮授予必要权限。
 
@@ -102,7 +102,7 @@ Classroom to WordPress 插件将 Google Classroom 与 WordPress 无缝连接，�
 
 ### 启用 Google Classroom API
 
-1.在项目创建后，点击通知内容。
+1.在项目创建后，点击“通知内容”。
 
 ![通知内容](img/Classroomapi5.png)
 
@@ -114,7 +114,7 @@ Classroom to WordPress 插件将 Google Classroom 与 WordPress 无缝连接，�
 
 ![库](img/Classroomapi7.png)
 
-4.在搜索框中输入 “Google Classroom API”，按下回车。
+4.在搜索框中输入 “Google Classroom API”，按下“回车”。
 
 ![输入并回车](img/Classroomapi8.png)
 
@@ -136,12 +136,29 @@ Classroom to WordPress 插件将 Google Classroom 与 WordPress 无缝连接，�
 
 ![OAuth 权限请求页面](img/Classroomapi12.png)
 
-2.选择内部并点击创建
+2.选择内部并点击“创建”。
 
-3.输入应用名称（如 Classroom to WordPress），选择用户支持邮件（选择当前登录账号邮件）。 
-4.输入以获授权的网域（自己WordPress域，如 21TE495.edu2web.com就是edu2web.com）和电子邮件地址（任意）并点击 “保存并继续”。 
-5.不用做更改直接点击 “保存并继续”。 
-6.点击返回信息中心完成 OAuth 权限请求页面的创建。 
+![内部创建](img/Classroomapi13.png)
+
+3.输入应用名称（如 Classroom to WordPress），选择用户支持邮件（选择当前登录账号邮件）。
+
+![输入并选择](img/Classroomapi14.png)
+
+4.输入以获授权的网域（自己WordPress域，如 21TE495.edu2web.com就是edu2web.com）和电子邮件地址（任意）并点击 “保存并继续”。
+
+![输入](img/Classroomapi15.png)
+
+5.不用做更改直接点击 “保存并继续”。
+
+![保存并继续](img/Classroomapi16.png)
+
+6.点击 “返回信息中心”。 
+
+![返回信息中心](img/Classroomapi17.png)
+
+7.完成OAuth 权限请求页面的创建。
+
+![完成](img/Classroomapi18.png)
 
 ### 创建 OAuth 2.0 凭据
 
