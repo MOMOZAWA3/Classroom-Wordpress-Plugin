@@ -1,7 +1,9 @@
 # Classroom-Wordpress-Plugin #
 
 **Contributors:** NI YUNHAO
+
 Plugin URI: https://github.com/fedipod/upod-plugi
+
 Author URI: http://api.edu2web.com/tinywebdb-api/ 
 
 Document URI: http://api.edu2web.com/tinywebdb-api/    
