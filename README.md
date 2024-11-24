@@ -1,7 +1,7 @@
 # Classroom to WordPress
 
-**贡献者：** NI YUNHAO
-**捐赠链接：** [https://21te495.edu2web.com/](https://21te495.edu2web.com/)  
+**贡献者：** NI YUNHAO  
+**捐赠链接：** [https://21te495.edu2web.com/](https://21te495.edu2web.com/)   
 **标签：** Google Classroom，学生成绩，教育  
 **最低要求：** WordPress 5.0  
 **测试通过版本：** WordPress 6.3  
@@ -12,20 +12,22 @@
 
 Classroom to WordPress 插件将 Google Classroom 与 WordPress 无缝连接，可以获取学生数据、作业和成绩，并将其发布到 WordPress。
 
----
-
 ## 插件简介
 
-**Classroom to WordPress** 插件可以帮助教师和管理员整合 Google Classroom 数据至 WordPress，以提升教育工作流程。主要功能包括：
+**Classroom to WordPress** 插件可以帮助教师和学生整合 Google Classroom 数据至 WordPress，以实现自己的数据自己管理。主要功能包括：
+
+### 学生
+
+- 获取并列出 Google Classroom 中的所有课程。
+- 获取课程中自己的作业和成绩，自动将课程数据、作业或成绩发布为 WordPress 文章。
+
+### 教师
 
 - 获取并列出 Google Classroom 中的所有课程。
 - 查看课程中学生的详细名单。
-- 获取单个学生或整班学生的作业和成绩。
-- 自动将课程数据、作业或成绩发布为 WordPress 文章。
+- 获取单个学生或整班学生的作业和成绩，自动将课程数据、作业或成绩发布为 WordPress 文章。
 
-这款插件特别适合希望在 WordPress 网站上展示和管理 Google Classroom 数据的教育工作者和教育机构。
-
----
+这款插件特别适合希望能自己的学习数据自己管理的人，把学习数据数据去中心化。
 
 ## 功能特色
 
@@ -35,8 +37,6 @@ Classroom to WordPress 插件将 Google Classroom 与 WordPress 无缝连接，�
 - **作业与成绩获取**：获取学生提交的作业及其成绩。
 - **文章自动创建**：将学生数据直接发布为 WordPress 文章。
 - **角色识别**：根据用户角色（教师或学生）调整功能权限。
-
----
 
 ## 安装步骤
 
