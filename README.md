@@ -53,24 +53,17 @@ Classroom to WordPress 插件将 Google Classroom 与 WordPress 无缝连接，�
 
 1. 在 [Google API 控制台](https://console.cloud.google.com/) 中设置 OAuth 2.0 客户端后，获取Json文件。
 2. 打开Json文件并复制文件内容
-3. 在插件设置页面将复制内容粘贴到输入框中，然后点击 提交。
+3. 在插件设置页面将复制内容粘贴到输入框中，然后点击 保存token.json。
 4. 点击 **“授权 Google Classroom”** 按钮授予必要权限。
 5. 授权完成后，即可通过插件界面访问课程数据、作业和成绩。
 
----
-
 ## 常见问题
 
-### 1. 我如何获取 `token.json` 文件？
-在 [Google API 控制台](https://console.cloud.google.com/) 设置 OAuth 2.0 客户端后，您可以下载 `token.json` 文件。
+### 1. 我如何获取 `json` 文件？
+在 [Google API 控制台](https://console.cloud.google.com/) 设置 OAuth 2.0 客户端后，您可以下载 `json` 文件。
 
 ### 2. 如果访问令牌过期怎么办？
 插件会自动刷新过期的令牌。如果刷新失败，您需要重新授权。
-
-### 3. 学生可以使用这个插件吗？
-该插件主要为教师和管理员设计。学生仅在获得访问权限时可查看特定数据。
-
----
 
 ## 插件截图
 
@@ -79,39 +72,31 @@ Classroom to WordPress 插件将 Google Classroom 与 WordPress 无缝连接，�
 3. **学生成绩表**：展示作业和成绩的详细表格。
 4. **WordPress 文章展示**：插件自动生成的学生成绩 WordPress 文章示例。
 
----
-
 ## 更新日志
 
 ### 1.3
-- 新增支持显示作业附件功能。
+- 新增支持显示作业附件和教师附件功能。
 - 改进了 Google API 响应的错误处理。
-- 增强用户角色检测和权限管理。
+- 增强用户角色（教师或学生）检测和权限管理。
 
 ### 1.2
 - 添加自动创建学生成绩和数据的 WordPress 文章功能。
 - 优化 `token.json` 管理界面。
 
 ### 1.1
-- 发布首个版本，提供 Google Classroom 的基本集成功能。
-
----
+- 发布首个版本，提供 Google Classroom 的基本认证功能。
 
 ## 升级注意事项
 
 升级前请确保 `token.json` 文件已正确配置，以避免功能中断。
-
----
 
 ## 许可证
 
 本插件遵循 GNU 通用公共许可证 (GPLv2 或更高版本)。  
 详情请参考 [GPLv2 许可证](http://www.gnu.org/licenses/gpl-2.0.html)。
 
----
-
 ## 技术支持
 
 如需技术支持或有任何问题，请联系：  
-**你的名字**  
-**邮箱：** your-email@example.com
+**NI YUNHAO**  
+**邮箱：** 21TE495@ditu.jp
