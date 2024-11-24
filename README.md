@@ -97,6 +97,5 @@ Classroom to WordPress 插件将 Google Classroom 与 WordPress 无缝连接，�
 
 ## 技术支持
 
-如需技术支持或有任何问题，请联系：  
-**NI YUNHAO**  
+**如需技术支持或有任何问题，请联系：** NI YUNHAO  
 **邮箱：** 21TE495@ditu.jp
