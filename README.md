@@ -40,18 +40,22 @@ Classroom to WordPress 插件将 Google Classroom 与 WordPress 无缝连接，�
 
 ## 安装步骤
 
-1. 下载插件并上传到 `/wp-content/plugins/` 目录。
-2. 在 WordPress 管理后台的插件页面启用插件。
-3. 通过后台菜单 **“Classroom Grades to WP”** 进入插件设置页面进行配置。
-
----
+1.点击页面右侧的绿色按钮 “Code”。  
+2.在下拉菜单中选择 “Download ZIP” 下载插件的压缩文件。  
+3.登录到您的 WordPress 管理后台。  
+4.在左侧菜单中点击 插件 > 安装插件。  
+5.在页面左上角点击 上传插件 按钮。  
+6.点击 选择文件，选择刚刚从 GitHub 下载的 ZIP 文件，然后点击 现在安装。  
+7.安装完成后，点击 启用插件 按钮。  
+8.插件安装成功后，您可以在左侧菜单找到 “Classroom Grades to WP”，并开始配置和使用插件。  
 
 ## 配置步骤
 
-1. 在 [Google API 控制台](https://console.cloud.google.com/) 中设置 OAuth 2.0 客户端后，获取 `token.json` 文件。
-2. 在插件设置页面上传 `token.json` 文件，或者直接将文件内容粘贴到输入框中。
-3. 点击 **“授权 Google Classroom”** 按钮授予必要权限。
-4. 授权完成后，即可通过插件界面访问课程数据、作业和成绩。
+1. 在 [Google API 控制台](https://console.cloud.google.com/) 中设置 OAuth 2.0 客户端后，获取Json文件。
+2. 打开Json文件并复制文件内容
+3. 在插件设置页面将复制内容粘贴到输入框中，然后点击 提交。
+4. 点击 **“授权 Google Classroom”** 按钮授予必要权限。
+5. 授权完成后，即可通过插件界面访问课程数据、作业和成绩。
 
 ---
 
