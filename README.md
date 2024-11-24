@@ -5,7 +5,7 @@ Plugin URI: https://github.com/fedipod/upod-plugin
 Author URI: http://api.edu2web.com/tinywebdb-api/ 
 Document URI: http://api.edu2web.com/tinywebdb-api/  
 **Donate link:** https://21te495.daiichi-koudai.com
-**Tags:** ActivityPub, Friends, Reproduction, classification
+**Tags:** Classroom, Link, Data，Api
 **Requires at least:** 4.0  
 **Requires PHP:** 5.2.4  
 **Tested up to:** 6.2.2  
