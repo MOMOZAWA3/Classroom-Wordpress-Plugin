@@ -160,9 +160,12 @@ Classroom to WordPress 插件将 Google Classroom 与 WordPress 无缝连接，�
 
 ![完成](img/Classroomapi18.png)
 
-### 创建 OAuth 2.0 凭据
+### 创建 OAuth 2.0 客户端 ID 凭据
 
-返回 “認証情報”（凭据）页面。
+1.点击左侧菜单中的 “凭据”。
+
+![凭据](img/Classroomapi19.png)
+
 点击 “認証情報を作成”（创建凭据） > “OAuth クライアント ID”。
 在 アプリケーションの種類（应用类型） 中，选择 ウェブアプリケーション（Web 应用）。
 输入应用名称（如 Classroom to WordPress）。
