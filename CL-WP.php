@@ -3,7 +3,7 @@
 Plugin Name: Classroom to WordPress
 Description: 从 Google Classroom 获取数据并发布到 WordPress
 Version: 1.3
-Author: Your Name
+Author: NI YUNHAO
 */
 
 // 引入 Google API 客户端库
