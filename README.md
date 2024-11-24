@@ -61,15 +61,17 @@ Classroom to WordPress 插件将 Google Classroom 与 WordPress 无缝连接，�
 
 ### 登录 Google Cloud Console
 
-打开 [Google Cloud Console](https://console.cloud.google.com/) 。  
-使用您的 Google 账号登录。  
+1. 打开 [Google Cloud Console](https://console.cloud.google.com/) 。  
+2. 使用您的 Google 账号登录。
+ 
+![登录页面示例](img/Classroomapi1.png)
 
 ### 创建新项目
 
-在顶部导航栏点击 “项目选择”（プロジェクトの選択）。  
-点击 “新しいプロジェクト”（新建项目）。  
-输入项目名称（如 Classroom to WordPress）。  
-选择适当的组织和位置后，点击 “作成”（创建）。  
+1. 在顶部导航栏点击 “项目选择”（プロジェクトの選択）。  
+2. 点击 “新しいプロジェクト”（新建项目）。  
+3. 输入项目名称（如 Classroom to WordPress）。  
+4. 选择适当的组织和位置后，点击 “作成”（创建）。  
 
 ### 启用 Google Classroom API
 
