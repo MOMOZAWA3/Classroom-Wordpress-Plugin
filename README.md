@@ -1,112 +1,113 @@
 # Classroom to WordPress
 
-**Contributors:** Your Name  
-**Donate link:** [https://example.com/](https://example.com/)  
-**Tags:** google classroom, student grades, assignment management, education  
-**Requires at least:** 5.0  
-**Tested up to:** 6.3  
-**Requires PHP:** 7.4  
-**Stable tag:** 1.3  
-**License:** GPLv2 or later  
-**License URI:** [http://www.gnu.org/licenses/gpl-2.0.html](http://www.gnu.org/licenses/gpl-2.0.html)  
+**贡献者：** NI YUNHAO
+**捐赠链接：** [https://21te495.edu2web.com/](https://21te495.edu2web.com/)  
+**标签：** Google Classroom，学生成绩，作业管理，教育  
+**最低要求：** WordPress 5.0  
+**测试通过版本：** WordPress 6.3  
+**最低 PHP 版本要求：** 7.4  
+**稳定版本：** 1.3  
+**许可证：** GPLv2 或更高版本  
+**许可证链接：** [http://www.gnu.org/licenses/gpl-2.0.html](http://www.gnu.org/licenses/gpl-2.0.html)  
 
-Classroom to WordPress is a plugin that connects Google Classroom with WordPress, allowing you to fetch student data, assignments, grades, and more.
-
----
-
-## Description
-
-The **Classroom to WordPress** plugin integrates Google Classroom with WordPress to enhance educational workflows. Teachers and administrators can:
-
-- Fetch and list courses from Google Classroom.
-- View detailed lists of enrolled students in a course.
-- Fetch assignments and grades for individual students or an entire class.
-- Automatically create WordPress posts containing course data, assignments, or grades.
-
-This plugin is ideal for educators and institutions seeking to manage and display Google Classroom data on WordPress sites.
+Classroom to WordPress 插件将 Google Classroom 与 WordPress 无缝连接，可以获取学生数据、作业和成绩，并将其发布到 WordPress。
 
 ---
 
-## Features
+## 插件简介
 
-- **Google Classroom API Integration**: Authenticate and fetch Classroom data easily.
-- **Course Management**: List and view details for all courses.
-- **Student Management**: Display student rosters with associated emails and profiles.
-- **Assignment & Grade Retrieval**: Fetch assignment submissions and grades.
-- **Post Auto-Creation**: Publish student data directly to WordPress as posts.
-- **Role Detection**: Adapts features based on user role (teacher or student).
+**Classroom to WordPress** 插件可以帮助教师和管理员整合 Google Classroom 数据至 WordPress，以提升教育工作流程。主要功能包括：
 
----
+- 获取并列出 Google Classroom 中的所有课程。
+- 查看课程中学生的详细名单。
+- 获取单个学生或整班学生的作业和成绩。
+- 自动将课程数据、作业或成绩发布为 WordPress 文章。
 
-## Installation
-
-1. Download and upload the plugin folder to `/wp-content/plugins/`.
-2. Activate the plugin in the WordPress Admin Dashboard under Plugins.
-3. Configure the plugin via the "Classroom Grades to WP" menu in the WordPress Admin Dashboard.
+这款插件特别适合希望在 WordPress 网站上展示和管理 Google Classroom 数据的教育工作者和教育机构。
 
 ---
 
-## Setup
+## 功能特色
 
-1. Obtain your `token.json` file from the [Google API Console](https://console.cloud.google.com/) after setting up an OAuth 2.0 client.
-2. Upload the `token.json` file in the plugin settings page or paste the content directly into the input field.
-3. Click **"Authorize Google Classroom"** to grant necessary permissions.
-4. Once authorized, access course data, assignments, and grades from the plugin interface.
-
----
-
-## Frequently Asked Questions
-
-### Where can I get the `token.json` file?
-You can generate the `token.json` file from the [Google API Console](https://console.cloud.google.com/).
-
-### What if the access token expires?
-The plugin will refresh expired tokens automatically. If the refresh fails, you will need to reauthorize the plugin.
-
-### Can students use this plugin?
-This plugin is designed for teachers and administrators. Students can view specific details only if access is granted.
+- **Google Classroom API 集成**：轻松完成身份验证并获取 Google Classroom 数据。
+- **课程管理**：列出所有课程并查看详情。
+- **学生管理**：展示学生名单及其电子邮件和个人资料。
+- **作业与成绩获取**：获取学生提交的作业及其成绩。
+- **文章自动创建**：将学生数据直接发布为 WordPress 文章。
+- **角色识别**：根据用户角色（教师或学生）调整功能权限。
 
 ---
 
-## Screenshots
+## 安装步骤
 
-1. **Plugin Dashboard**: Overview of settings and options.
-2. **Course List**: List of courses fetched from Google Classroom.
-3. **Student Grades Table**: A detailed table of assignments and grades.
-4. **WordPress Post Output**: Example of a WordPress post created by the plugin.
+1. 下载插件并上传到 `/wp-content/plugins/` 目录。
+2. 在 WordPress 管理后台的插件页面启用插件。
+3. 通过后台菜单 **“Classroom Grades to WP”** 进入插件设置页面进行配置。
 
 ---
 
-## Changelog
+## 配置步骤
+
+1. 在 [Google API 控制台](https://console.cloud.google.com/) 中设置 OAuth 2.0 客户端后，获取 `token.json` 文件。
+2. 在插件设置页面上传 `token.json` 文件，或者直接将文件内容粘贴到输入框中。
+3. 点击 **“授权 Google Classroom”** 按钮授予必要权限。
+4. 授权完成后，即可通过插件界面访问课程数据、作业和成绩。
+
+---
+
+## 常见问题
+
+### 1. 我如何获取 `token.json` 文件？
+在 [Google API 控制台](https://console.cloud.google.com/) 设置 OAuth 2.0 客户端后，您可以下载 `token.json` 文件。
+
+### 2. 如果访问令牌过期怎么办？
+插件会自动刷新过期的令牌。如果刷新失败，您需要重新授权。
+
+### 3. 学生可以使用这个插件吗？
+该插件主要为教师和管理员设计。学生仅在获得访问权限时可查看特定数据。
+
+---
+
+## 插件截图
+
+1. **插件设置页面**：展示插件设置和选项概览。
+2. **课程列表**：显示从 Google Classroom 获取的课程。
+3. **学生成绩表**：展示作业和成绩的详细表格。
+4. **WordPress 文章展示**：插件自动生成的学生成绩 WordPress 文章示例。
+
+---
+
+## 更新日志
 
 ### 1.3
-- Added support for fetching and displaying attachments for assignments.
-- Improved error handling for Google API responses.
-- Enhanced user role detection and permissions.
+- 新增支持显示作业附件功能。
+- 改进了 Google API 响应的错误处理。
+- 增强用户角色检测和权限管理。
 
 ### 1.2
-- Introduced automatic WordPress post creation for grades and student data.
-- Updated token management interface for easier configuration.
+- 添加自动创建学生成绩和数据的 WordPress 文章功能。
+- 优化 `token.json` 管理界面。
 
 ### 1.1
-- Initial release with basic Google Classroom integration.
+- 发布首个版本，提供 Google Classroom 的基本集成功能。
 
 ---
 
-## Upgrade Notice
+## 升级注意事项
 
-Ensure the `token.json` file is correctly configured before upgrading to avoid functionality interruptions.
-
----
-
-## License
-
-This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
-
-[Learn more about GPLv2](http://www.gnu.org/licenses/gpl-2.0.html).
+升级前请确保 `token.json` 文件已正确配置，以避免功能中断。
 
 ---
 
-## Support
+## 许可证
 
-For support and inquiries, please contact Your Name at `your-email@example.com`.
+本插件遵循 GNU 通用公共许可证 (GPLv2 或更高版本)。  
+详情请参考 [GPLv2 许可证](http://www.gnu.org/licenses/gpl-2.0.html)。
+
+---
+
+## 技术支持
+
+如需技术支持或有任何问题，请联系：  
+**你的名字**  
+**邮箱：** your-email@example.com
