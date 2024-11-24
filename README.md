@@ -76,7 +76,7 @@ Classroom to WordPress 插件将 Google Classroom 与 WordPress 无缝连接，�
 
 6. 授权完成后，即可通过插件界面访问课程数据、作业和成绩。
 
-## 1. 我如何获取 `json` 文件？
+## 如何获取 `json` 文件？
 
 ### 登录 Google Cloud Console
 
@@ -88,18 +88,28 @@ Classroom to WordPress 插件将 Google Classroom 与 WordPress 无缝连接，�
 
 ### 创建新项目
 
-1. 在顶部导航栏点击 “选择项目”。 
+1. 在顶部导航栏点击 “选择项目”。
+
+![选择项目](img/Classroomapi2.png)
 
 2. 点击 “新建项目”。
 
-3. 输入项目名称（如 Classroom to WordPress），选择适当的组织和位置（如 ditu.jp），点击 “创建”。  
+![新建项目](img/Classroomapi3.png)
+
+3. 输入项目名称（如 Classroom to WordPress），选择适当的组织和位置（如 ditu.jp），点击 “创建”。
+
+![创建](img/Classroomapi4.png)
 
 ### 启用 Google Classroom API
 
-在项目创建或选择后，点击左侧菜单中的 “API とサービス” > “ライブラリ”（API 和服务 > 库）。
-在搜索框中输入 “Google Classroom API”，点击搜索。
-选择 “Google Classroom API”，然后点击 “有効にする”（启用）。
-等待 API 启用完成，页面会自动跳转到 API 的详细信息页面。
+1.在项目创建后，点击通知内容。
+
+1.点击左侧产品中的 “API 和服务”。
+1.点击左侧菜单中的 “库”。
+1.在搜索框中输入 “Google Classroom API”，按下回车。
+1.选择 “Google Classroom API”，
+1.点击 “启用”（启用）。
+1.等待 API 启用完成，页面会自动跳转到 API 的详细信息页面。
 
 ### 创建 OAuth 同意屏幕
 
