@@ -104,28 +104,44 @@ Classroom to WordPress 插件将 Google Classroom 与 WordPress 无缝连接，�
 
 1.在项目创建后，点击通知内容。
 
-1.点击左侧产品中的 “API 和服务”。
-1.点击左侧菜单中的 “库”。
-1.在搜索框中输入 “Google Classroom API”，按下回车。
-1.选择 “Google Classroom API”，
-1.点击 “启用”（启用）。
-1.等待 API 启用完成，页面会自动跳转到 API 的详细信息页面。
+![通知内容](img/Classroomapi5.png)
 
-### 创建 OAuth 同意屏幕
+2.点击左侧产品中的 “API 和服务”。
 
-在左侧菜单中，点击 “API とサービス” > “認証情報”（API 和服务 > 凭据）。
-点击页面顶部的 “同意画面を構成”（配置同意屏幕）。
-根据您的需求选择 “外部”（外部用户）或 “内部”（仅组织内部用户）。一般情况下选择 外部。
-点击 “作成” 进入下一步：
-アプリ名（应用名称）：输入您的应用名称，例如 Classroom to WordPress。
-サポートメールアドレス（支持电子邮件）：填写您的邮箱地址。
-アプリのドメイン（应用域名）：可选，若您的应用有域名可填写。
-開発者の連絡先情報（开发者联系方式）：输入邮箱地址，完成后点击 “保存して次へ”（保存并继续）。
-スコープの追加（添加作用域）：点击 スコープを追加，确保添加以下作用域：
-https://www.googleapis.com/auth/classroom.courses
-https://www.googleapis.com/auth/classroom.rosters
-https://www.googleapis.com/auth/classroom.coursework.students
-点击 “保存して次へ”，完成同意屏幕设置。
+![API 和服务](img/Classroomapi6.png)
+
+3.点击左侧菜单中的 “库”。
+
+![库](img/Classroomapi7.png)
+
+4.在搜索框中输入 “Google Classroom API”，按下回车。
+
+![输入并回车](img/Classroomapi8.png)
+
+5.选择 “Google Classroom API”。
+
+![选择](img/Classroomapi9.png)
+
+6.点击 “启用”。
+
+![启用](img/Classroomapi10.png)
+
+7.等待 API 启用完成，页面会自动跳转到 API 的详细信息页面。
+
+![跳转界面](img/Classroomapi11.png)
+
+### 创建 OAuth 权限请求页面
+
+1.点击左侧菜单中的“OAuth 权限请求页面”。
+
+![OAuth 权限请求页面](img/Classroomapi12.png)
+
+2.选择内部并点击创建
+
+3.输入应用名称（如 Classroom to WordPress），选择用户支持邮件（选择当前登录账号邮件）。 
+4.输入以获授权的网域（自己WordPress域，如 21TE495.edu2web.com就是edu2web.com）和电子邮件地址（任意）并点击 “保存并继续”。 
+5.不用做更改直接点击 “保存并继续”。 
+6.点击返回信息中心完成 OAuth 权限请求页面的创建。 
 
 ### 创建 OAuth 2.0 凭据
 
