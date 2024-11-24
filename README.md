@@ -166,35 +166,54 @@ Classroom to WordPress 插件将 Google Classroom 与 WordPress 无缝连接，�
 
 ![凭据](img/Classroomapi19.png)
 
-点击 “認証情報を作成”（创建凭据） > “OAuth クライアント ID”。
-在 アプリケーションの種類（应用类型） 中，选择 ウェブアプリケーション（Web 应用）。
-输入应用名称（如 Classroom to WordPress）。
-在 承認済みのリダイレクト URI（已授权重定向 URI） 中添加以下 URI：
-示例：https://www.example.com/wp-admin/admin-post.php?action=google_classroom_auth
-点击 “作成”（创建）。
+2.点击上方 “创建凭据”。
+
+![创建凭据](img/Classroomapi20.png)
+
+3.点击 “OAuth 客户端 ID”。
+
+![OAuth 客户端 ID](img/Classroomapi21.png)
+
+4.选择应用类型 “Web应用”。
+
+![Web应用](img/Classroomapi22.png)
+
+5.输入名称（如 Classroom to WordPress），添加已获授权的JavaScript（自己WordPress网站）和已获授权的重定向URL（自己WordPress网站 + /wp-admin/admin-post.php?action=google_classroom_auth）并点击 “创建”。
+
+![URL](img/Classroomapi23.png)
 
 ### 下载 JSON 文件
 
-创建完成后，系统会生成 客户端 ID 和 客户端密钥。
-点击 “ダウンロード” 按钮，将 JSON 文件下载到本地（通常命名为 client_secret_XXXX.json）。
-将此文件保存好，以便在 WordPress 插件中上传或配置。
+1.创建完成后，系统会生成 客户端 ID 和 客户端密钥。
+
+2.点击 “下载JSON” 按钮，将 JSON 文件下载到本地。
+
+![下载JSON](img/Classroomapi24.png)
+
+3.将此 JSON 文件保存好，以便在 WordPress 插件中配置。
 
 ## 插件截图
 
 1. **插件设置页面**：展示插件设置和选项概览。
+
 2. **课程列表**：显示从 Google Classroom 获取的课程。
+
 3. **学生成绩表**：展示作业和成绩的详细表格。
+
 4. **WordPress 文章展示**：插件自动生成的学生成绩 WordPress 文章示例。
 
 ## 更新日志
 
 ### 1.3
 - 新增支持显示作业附件和教师附件功能。
+
 - 改进了 Google API 响应的错误处理。
+
 - 增强用户角色（教师或学生）检测和权限管理。
 
 ### 1.2
 - 添加自动创建学生成绩和数据的 WordPress 文章功能。
+
 - 优化 `token.json` 管理界面。
 
 ### 1.1
@@ -207,9 +226,11 @@ Classroom to WordPress 插件将 Google Classroom 与 WordPress 无缝连接，�
 ## 许可证
 
 本插件遵循 GNU 通用公共许可证 (GPLv2 或更高版本)。  
+
 详情请参考 [GPLv2 许可证](http://www.gnu.org/licenses/gpl-2.0.html)。
 
 ## 技术支持
 
 **如需技术支持或有任何问题，请联系：** NI YUNHAO  
+
 **邮箱：** 21TE495@ditu.jp
