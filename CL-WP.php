@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Classroom to WordPress
-Description: 从 Google Classroom 获取数据并发布到 WordPress
+Description: Retrieve Data from Google Classroom and Publish to WordPress
 Version: 1.3
 Author: NI YUNHAO
 */
